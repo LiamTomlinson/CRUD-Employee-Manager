@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -26,4 +26,6 @@ public class Employee {
 
     @Column(name = "email_id", nullable = false, unique = true)
     private String email;
+
+
 }
